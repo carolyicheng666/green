@@ -1,0 +1,87 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    background: #000;
+}
+
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: solid 0;
+    border-color: lime transparent;
+    border-width: 0.25em 0.25em 0 0;
+    border-radius: 50%;
+    animation: r 0s linear infinite;
+}
+
+.ring:nth-child(1) {
+    margin: -2.5em;
+    width: 5em;
+    height: 5em;
+    animation-duration: 0.7s;
+}
+
+.ring:nth-child(2) {
+    margin: -4em;
+    width: 8em;
+    height: 8em;
+    animation-duration: 0.7875s;
+}
+
+.ring:nth-child(3) {
+    margin: -5.5em;
+    width: 11em;
+    height: 11em;
+    animation-duration: 0.9s;
+}
+
+.ring:nth-child(4) {
+    margin: -7em;
+    width: 14em;
+    height: 14em;
+    animation-duration: 1.05s;
+}
+
+.ring:nth-child(5) {
+    margin: -8.5em;
+    width: 17em;
+    height: 17em;
+    animation-duration: 1.26s;
+}
+
+.ring:nth-child(6) {
+    margin: -10em;
+    width: 20em;
+    height: 20em;
+    animation-duration: 1.575s;
+}
+
+.ring:nth-child(7) {
+    margin: -11.5em;
+    width: 23em;
+    height: 23em;
+    animation-duration: 2.1s;
+}
+
+.ring:nth-child(8) {
+    margin: -13em;
+    width: 26em;
+    height: 26em;
+    animation-duration: 3.15s;
+}
+
+.ring:nth-child(9) {
+    margin: -14.5em;
+    width: 29em;
+    height: 29em;
+    animation-duration: 6.3s;
+}
+
+@keyframes r {
+    to {
+        transform: rotate(1turn);
+    }
+}
